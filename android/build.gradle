@@ -84,6 +84,8 @@ android {
     }
 }
 
+def reactNativePath = findNodeModulePath(projectDir, "react-native")
+
 repositories {
     maven {
         url "${reactNativePath}/android"
