@@ -1,4 +1,4 @@
-import java.nio.file.paths
+import java.nio.file.Paths
 
 buildscript {
     repositories {
